@@ -1,12 +1,44 @@
-# React + Vite
+# 📝 Task Dashboard App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React Task Management App** to add, view, and delete tasks.  
+Built to practice **React fundamentals** such as state management, props, and lifting state up.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- Preview Images with controlled size -->
+<img src="https://github.com/user-attachments/assets/85363bef-25c5-4cc6-bd14-d191cc1d21fb" alt="Dashboard Screenshot" width="800" />
 
-## Expanding the ESLint configuration
+<img src="https://github.com/user-attachments/assets/7b44a94d-32d2-4713-b7d0-02a2fd895788" alt="Task Form Screenshot" width="800" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚡ Features
+- ✅ Add tasks with **title** and **description**  
+- ❌ Delete tasks individually  
+- 🎨 Clean, responsive **dashboard layout**  
+- 📦 Parent component manages **all state**; child components receive **props** and **callbacks**  
+
+---
+
+## 🛠 Tech Stack
+- **React** (Functional Components, Hooks: `useState`)  
+- **CSS** (inline styles for simplicity)  
+- **JavaScript** ES6+  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js installed  
+- npm or yarn installed  
+
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd task-web-app-react
+npm install
+npm run dev
+```
+open in browser http://localhost:3000/
