@@ -6,7 +6,8 @@ Built to practice **React fundamentals** such as state management, props, and li
 ---
 
 <!-- Preview Images with controlled size -->
-<img src="https://github.com/user-attachments/assets/85363bef-25c5-4cc6-bd14-d191cc1d21fb" alt="Dashboard Screenshot" width="800" />
+<img  alt="image" src="https://github.com/user-attachments/assets/d3b15a2e-b0a9-41ab-bed1-2cb3b29eb57e" width="800"/>
+
 
 <img src="https://github.com/user-attachments/assets/7b44a94d-32d2-4713-b7d0-02a2fd895788" alt="Task Form Screenshot" width="800" />
 
