@@ -19,8 +19,7 @@ function App() {
     {
       name: "Do Python for 20 mins",
       id: 531,
-      description:
-        "Use ChatGPT to summarize info for effective studying.",
+      description: "Use ChatGPT to summarize info for effective studying.",
     },
     {
       name: "Relax for 20 mins",
@@ -122,14 +121,20 @@ function App() {
           maxWidth: "400px",
         }}
       >
-        {tasks.map((task) => (
-          <TaskCard
-            key={task.id}
-            name={task.name}
-            description={task.description}
-            onRemove={() => handleOnRemove(task.id)}
-          />
-        ))}
+        {tasks.length > 0 ? (
+          tasks.map((task) => (
+            <TaskCard
+              key={task.id}
+              name={task.name}
+              description={task.description}
+              onRemove={() => handleOnRemove(task.id)}
+            />
+          ))
+        ) : (
+          <>
+            <h3>No Tasks to display🤔</h3>
+          </>
+        )}
       </div>
     </div>
   );
